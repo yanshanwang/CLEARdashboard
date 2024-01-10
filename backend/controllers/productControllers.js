@@ -13,3 +13,12 @@ export const getProducts = async (req, res, next) => {
     products,
   });
 };
+
+
+
+export const getProduct = async (req, res, next) => {
+  const product = await Product.findById(req.query.id);
+  res.status(200).json({
+    product,
+  });
+};

@@ -15,7 +15,7 @@ const Header = () => {
                 // style={{ height: "50px", width: "60px" }}
                 height="60"
                 width="160"
-                alt="BuyItNow"
+                alt="ClearDashboard"
               />
             </a>
           </div>
@@ -23,34 +23,44 @@ const Header = () => {
 
           <div className="flex items-center space-x-2 ml-auto">
             <Link
-              href="/cart"
-              className="px-3 py-2 inline-block text-center text-gray-700 bg-white shadow-sm border border-gray-200 rounded-md hover:bg-gray-100 hover:border-gray-300"
+              href="/favorites"
+              className="px-3 py-2 inline-block text-center"
             >
               <i className="text-gray-400 w-5 fa fa-shopping-cart"></i>
               <span className="hidden lg:inline ml-1">
-                Cart (<b>0</b>)
+                {/* Favorites  */}
+                <span>
+                <img
+                  src = "https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/6580c242df787d479f4db344/img/image-178.png"
+                  height="50"
+                  width="50"
+                /> (<b>0</b>)</span>
+                
               </span>
             </Link>
-            <Link
-              href="/login"
-              className="px-3 py-2 inline-block text-center text-gray-700 bg-white shadow-sm border border-gray-200 rounded-md hover:bg-gray-100 hover:border-gray-300"
-            >
-              <i className="text-gray-400 w-5 fa fa-user"></i>
-              <span className="hidden lg:inline ml-1">Sign in</span>
-            </Link>
-            <Link href="/me">
+            <a href = "/productsview">
+        <img
+          className="img"
+          alt="Image"
+          src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/6580f3be617a2a8254fa4a2d/img/image-166.png"
+          height="40px"
+          width="40px"
+           
+        />
+        </a>
+            
               <div className="flex items-center mb-4 space-x-3 mt-4 cursor-pointer">
                 <img className="w-10 h-10 rounded-full" src={"/images/default_profile.png"} />
                 <div className="space-y-1 font-medium">
                   <p>
-                    Ananya
+                    Guest
                     <time className="block text-sm text-gray-500 dark:text-gray-400">
-                      test@gmail.com
+                      guest@email.com
                     </time>
                   </p>
                 </div>
               </div>
-            </Link>
+            
           </div>
 
           <div className="lg:hidden ml-2">
