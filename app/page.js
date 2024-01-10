@@ -1,91 +1,100 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
+import React from "react";
+import Link from 'next/link'; 
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+const HomePage  = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
+    <div className="index">
+      <div className="overlap">
+        <div className="overlap-group">
+          <img
+            className="image"
+            alt="Image"
+            src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-125.png"
+          />
+          <div className="ellipse" />
+           <div className="frame1"> 
+            <div className="text-wrapper">Welcome to the CLEARdashboard</div>
+           </div> 
+          <div className="div-wrapper">
+            <p className="div">
+              A user-friendly resource to help you find hearing aids to meet your hearing, communication, and lifestyle
+              needs.
+            </p>
+          </div>
+          <div className="frame-2">
+            <img
+              className="img"
+              alt="Image"
+              src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-168.png"
             />
-          </a>
+            <div className="text-wrapper-2"><Link href="/meetTheTeam"> Meet the Research Team</Link></div>
+            <img
+              className="image-2"
+              alt="Image"
+              src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-162@2x.png"
+            />
+          </div>
+          <div className="frame-3">
+            <img
+              className="image-3"
+              alt="Image"
+              src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-221@2x.png"
+            />
+            <p className="p"><Link href="/HAtutorial"> Learn more about hearing and hearing aids</Link></p>
+            <img
+              className="image-2"
+              alt="Image"
+              src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-162@2x.png"
+            />
+          </div>
+          <div className="frame-4">
+            <img
+              className="img"
+              alt="Image"
+              src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-170.png"
+            />
+            <p className="text-wrapper-3"><Link href="/fdaGL"> Advice on when to seek health care services (FDA guidelines)</Link></p>
+            <img
+              className="image-2"
+              alt="Image"
+              src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-162@2x.png"
+            />
+          </div>
+          <img
+            className="image-4"
+            alt="Image"
+            src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-262.png"
+          />
+          <div className="group">
+            <div className="overlap-group-2">
+              <p className="text-wrapper-4">Consumer Led Evidence - Amplification Resources Dashboard</p>
+              <img
+                className="image-5"
+                alt="Image"
+                src="https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/655e24b3473d840adddd3c96/img/image-135.png"
+              />
+            </div>
+          </div>
+          <p className="text-wrapper-5">
+            The information and links to products are for your convenience only. This website is not supported by free
+            products, advertisement, or payments from manufacturers.
+          </p>
+          <p className="the-cleardashboard">
+            The CLEARdashboard was created to help: <span>
+            <ul >
+            <li>Adults (18-years and older) with perceived hearing loss pick hearing aids that will best meet their needs.{" "}</li>
+            <li>Learn about hearing aid styles and features.</li>
+            <li>Compare features and performance across Direct-to-Consumer hearing aids.</li>
+            <li>Make it easier to get the right hearing aids for you.</li>
+            </ul>
+            </span>
+          </p>
+        </div>
+        <div className="frame-5">
+          <div className="text-wrapper-6"><Link href="/signIn"> Get Started</Link></div>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+    </div>
+  );
+};
+export default HomePage;

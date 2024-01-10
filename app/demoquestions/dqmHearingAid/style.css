@@ -1,0 +1,179 @@
+.dqhearingaid {
+    background-color: #f5fcff;
+    height: 701px;
+    position: relative;
+    width: 1410px;
+  }
+  
+  .dqhearingaid .text-wrapper {
+    color: #000000;
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 74px;
+    left: 412px;
+    letter-spacing: 0;
+    line-height: 64px;
+    position: absolute;
+    text-align: center;
+    top: 177px;
+    white-space: nowrap;
+    width: 586px;
+  }
+  
+  .dqhearingaid .div {
+    align-items: center;
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    gap: 24px;
+    height: 50px;
+    justify-content: center;
+    left: 99px;
+    padding: 16px 36px;
+    position: absolute;
+    top: 595px;
+    width: 180px;
+  }
+  
+  .dqhearingaid .image {
+    height: 21px;
+    margin-bottom: -1.5px;
+    margin-top: -1.5px;
+    object-fit: cover;
+    position: relative;
+    width: 21px;
+  }
+  
+  .dqhearingaid .text-wrapper-2 {
+    color: #f5fcff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -4.5px;
+    margin-top: -6.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dqhearingaid .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 15px;
+    left: 577px;
+    position: absolute;
+    top: 282px;
+  }
+  
+  .dqhearingaid .frame-378 {
+    height: 84px !important;
+  }
+  
+  .dqhearingaid .frame-instance {
+    margin-top: unset !important;
+  }
+  
+  .dqhearingaid .frame-378-instance {
+    height: unset !important;
+    margin-left: unset !important;
+    margin-right: unset !important;
+    margin-top: unset !important;
+    width: fit-content !important;
+  }
+  
+  .dqhearingaid .frame-3 {
+    align-items: center;
+    display: inline-flex;
+    gap: 30px;
+    left: 1000px;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .dqhearingaid .img {
+    height: 35px;
+    object-fit: cover;
+    position: relative;
+    width: 35px;
+  }
+  
+  .dqhearingaid .frame-4 {
+    align-items: center;
+    background-color: #0d6efd;
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 24px;
+    position: relative;
+  }
+  
+  .dqhearingaid .text-wrapper-3 {
+    color: #f5fcff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dqhearingaid .image-2 {
+    height: 21px;
+    object-fit: cover;
+    position: relative;
+    width: 21px;
+  }
+  
+  .dqhearingaid .frame-5 {
+    align-items: flex-start;
+    display: flex;
+    height: 40px;
+    left: 496px;
+    position: absolute;
+    top: 78px;
+    width: 419px;
+  }
+  
+  .dqhearingaid .frame-6 {
+    background-color: #1eb041;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 10px 0px 0px 10px;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqhearingaid .frame-7 {
+    background-color: #1eb041;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqhearingaid .frame-8 {
+    background-color: #1eb041;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 0px 10px 10px 0px;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  

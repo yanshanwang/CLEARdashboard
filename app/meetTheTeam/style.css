@@ -1,0 +1,278 @@
+.meettheteam {
+  height: 982px;
+  overflow: hidden;
+  width: 1410px;
+}
+
+.meettheteam .group {
+  height: 982px;
+  width: 1418px;
+}
+
+.meettheteam .overlap {
+  background-image: url(https://cdn.animaapp.com/projects/653fd83724d590a7aa0e69a7/releases/6580f3be617a2a8254fa4a2d/img/cleardashboard-team.png);
+  background-size: 100% 100%;
+  height: 982px;
+  position: relative;
+  width: 1410px;
+}
+
+.meettheteam .image {
+  height: 100px;
+  left: 29px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 178px;
+}
+
+.meettheteam .text-wrapper {
+  color: #000000;
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  height: 56px;
+  left: 697px;
+  letter-spacing: 0;
+  line-height: 56px;
+  position: absolute;
+  top: 124px;
+  white-space: nowrap;
+}
+
+.meettheteam .frame {
+  align-items: center;
+  display: inline-flex;
+  gap: 30px;
+  left: 1178px;
+  position: absolute;
+  top: 24px;
+}
+
+.meettheteam .img {
+  height: 35px;
+  object-fit: cover;
+  position: relative;
+  width: 35px;
+}
+
+.meettheteam .div-wrapper {
+  align-items: center;
+  background-color: #0d6efd;
+  border: 1px solid;
+  border-radius: 5px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 8px 24px;
+  position: relative;
+}
+
+.meettheteam .div {
+  color: #ffffff;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.meettheteam .p {
+  color: #000000;
+  font-family: "Arial-Italic", Helvetica;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  height: 44px;
+  left: 83px;
+  letter-spacing: 0;
+  line-height: 35.2px;
+  position: absolute;
+  top: 870px;
+  width: 575px;
+}
+
+.meettheteam .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 632px;
+  left: 718px;
+  position: absolute;
+  top: 183px;
+  width: 670px;
+}
+
+.meettheteam .text {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 35.2px;
+  position: relative;
+}
+
+.meettheteam .span {
+  font-weight: 700;
+}
+
+.meettheteam .text-wrapper-2 {
+  font-family: "Arial-Regular", Helvetica;
+}
+
+.meettheteam .overlap-group-wrapper {
+  height: 210px;
+  left: 405px;
+  position: absolute;
+  top: 127px;
+  width: 254px;
+}
+
+.meettheteam .overlap-group {
+  height: 203px;
+  position: relative;
+  top: 6px;
+}
+
+.meettheteam .elaine-mormer-phd {
+  color: #000000;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 159px;
+  width: 254px;
+}
+
+.meettheteam .image-2 {
+  height: 160px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 211px;
+}
+
+.meettheteam .frame-2 {
+  height: 206px;
+  left: 83px;
+  position: absolute;
+  top: 131px;
+  width: 254px;
+}
+
+.meettheteam .catherine-palmer-phd {
+  color: #000000;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 161px;
+  width: 254px;
+}
+
+.meettheteam .frame-3 {
+  height: 207px;
+  left: 83px;
+  position: absolute;
+  top: 378px;
+  width: 289px;
+}
+
+.meettheteam .aravind {
+  color: #000000;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 162px;
+  width: 289px;
+}
+
+.meettheteam .image-3 {
+  height: 160px;
+  left: 405px;
+  object-fit: cover;
+  position: absolute;
+  top: 378px;
+  width: 211px;
+}
+
+.meettheteam .hari-bharadwaj-phd {
+  color: #000000;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 44px;
+  left: 405px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 541px;
+  width: 292px;
+}
+
+.meettheteam .frame-4 {
+  height: 212px;
+  left: 83px;
+  position: absolute;
+  top: 625px;
+  width: 254px;
+}
+
+.meettheteam .yanshan-wang-phd {
+  color: #000000;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 167px;
+  width: 254px;
+}
+
+.meettheteam .frame-5 {
+  height: 212px;
+  left: 405px;
+  position: absolute;
+  top: 625px;
+  width: 211px;
+}
+
+.meettheteam .jamie-katz-aud {
+  color: #000000;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  height: 44px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  position: absolute;
+  top: 167px;
+  width: 211px;
+}

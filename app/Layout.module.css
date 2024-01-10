@@ -1,0 +1,15 @@
+
+
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .wireframesContainer {
+    width: 100%; /* Set the width to 100% of the parent container */
+    max-width: 1512px; /* Set a maximum width if needed */
+  }

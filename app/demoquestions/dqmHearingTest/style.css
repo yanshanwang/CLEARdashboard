@@ -1,0 +1,202 @@
+
+.dqhearingtest {
+    background-color: #f5fcff;
+    height: 1050px;
+    position: relative;
+    width: 1410px;
+  }
+  
+  .dqhearingtest .text-wrapper {
+    color: #000000;
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 74px;
+    left: 353px;
+    letter-spacing: 0;
+    line-height: 64px;
+    position: absolute;
+    text-align: center;
+    top: 177px;
+    white-space: nowrap;
+    width: 705px;
+  }
+  
+  .dqhearingtest .div {
+    align-items: center;
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    gap: 24px;
+    height: 50px;
+    justify-content: center;
+    left: 78px;
+    padding: 16px 36px;
+    position: absolute;
+    top: 967px;
+    width: 180px;
+  }
+  
+  .dqhearingtest .image {
+    height: 21px;
+    margin-bottom: -1.5px;
+    margin-top: -1.5px;
+    object-fit: cover;
+    position: relative;
+    width: 21px;
+  }
+  
+  .dqhearingtest .text-wrapper-2 {
+    color: #f5fcff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -4.5px;
+    margin-top: -6.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dqhearingtest .frame-2 {
+    align-items: center;
+    display: inline-flex;
+    gap: 30px;
+    left: 1000px;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .dqhearingtest .img {
+    height: 35px;
+    object-fit: cover;
+    position: relative;
+    width: 35px;
+  }
+  
+  .dqhearingtest .frame-3 {
+    align-items: center;
+    background-color: #0d6efd;
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 24px;
+    position: relative;
+  }
+  
+  .dqhearingtest .text-wrapper-3 {
+    color: #f5fcff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dqhearingtest .image-2 {
+    height: 21px;
+    object-fit: cover;
+    position: relative;
+    width: 21px;
+  }
+  
+  .dqhearingtest .frame-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 25px;
+    left: 546px;
+    position: absolute;
+    top: 297px;
+  }
+  
+  .dqhearingtest .frame-378 {
+    height: 85px !important;
+    width: 318px !important;
+  }
+  
+  .dqhearingtest .frame-instance {
+    align-self: stretch !important;
+    flex: 1 !important;
+    height: unset !important;
+    margin-left: unset !important;
+    margin-right: unset !important;
+    white-space: unset !important;
+    width: unset !important;
+  }
+  
+  .dqhearingtest .frame-378-instance {
+    margin-left: unset !important;
+    margin-right: unset !important;
+    margin-top: unset !important;
+  }
+  
+  .dqhearingtest .design-component-instance-node {
+    height: unset !important;
+    margin-left: unset !important;
+    margin-right: unset !important;
+    margin-top: unset !important;
+    white-space: unset !important;
+  }
+  
+  .dqhearingtest .frame-5 {
+    font-size: 27px !important;
+    line-height: 43.2px !important;
+    margin-left: unset !important;
+    margin-right: unset !important;
+    margin-top: unset !important;
+    white-space: unset !important;
+  }
+  
+  .dqhearingtest .frame-6 {
+    align-items: flex-start;
+    display: flex;
+    height: 40px;
+    left: 496px;
+    position: absolute;
+    top: 78px;
+    width: 419px;
+  }
+  
+  .dqhearingtest .frame-7 {
+    background-color: #1eb041;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 10px 0px 0px 10px;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqhearingtest .frame-8 {
+    background-color: #1eb041;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqhearingtest .frame-9 {
+    background-color: #f5fcff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 0px 10px 10px 0px;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  

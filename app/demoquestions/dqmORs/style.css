@@ -1,0 +1,193 @@
+.dqmors {
+    background-color: #f5fcff;
+    height: 750px;
+    position: relative;
+    width: 1512px;
+  }
+  
+  .dqmors .div {
+    align-items: center;
+    display: inline-flex;
+    gap: 30px;
+    left: 1068px;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .dqmors .image {
+    height: 35px;
+    object-fit: cover;
+    position: relative;
+    width: 35px;
+  }
+  
+  .dqmors .frame-2 {
+    align-items: center;
+    background-color: #0d6efd;
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 24px;
+    position: relative;
+  }
+  
+  .dqmors .text-wrapper {
+    color: #f5fcff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dqmors .img {
+    height: 21px;
+    object-fit: cover;
+    position: relative;
+    width: 21px;
+  }
+  
+  .dqmors .p {
+    color: #000000;
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 74px;
+    left: 401px;
+    letter-spacing: 0;
+    line-height: 64px;
+    position: absolute;
+    top: 196px;
+    white-space: nowrap;
+    width: 710px;
+  }
+  
+  .dqmors .frame-3 {
+    align-items: center;
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    gap: 24px;
+    height: 50px;
+    justify-content: center;
+    left: 128px;
+    padding: 16px 36px;
+    position: absolute;
+    top: 625px;
+    width: 180px;
+  }
+  
+  .dqmors .image-2 {
+    height: 21px;
+    margin-bottom: -1.5px;
+    margin-top: -1.5px;
+    object-fit: cover;
+    position: relative;
+    width: 21px;
+  }
+  
+  .dqmors .text-wrapper-2 {
+    color: #f5fcff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -4.5px;
+    margin-top: -6.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dqmors .group {
+    height: 207px;
+    left: 628px;
+    position: absolute;
+    top: 332px;
+    width: 258px;
+  }
+  
+  .dqmors .frame-378 {
+    height: 85px !important;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .dqmors .frame-instance {
+    margin-top: unset !important;
+  }
+  
+  .dqmors .frame-378-instance {
+    height: 85px !important;
+    left: 1px !important;
+    position: absolute !important;
+    top: 122px !important;
+  }
+  
+  .dqmors .design-component-instance-node {
+    height: unset !important;
+    margin-top: unset !important;
+    white-space: unset !important;
+  }
+  
+  .dqmors .frame-wrapper {
+    align-items: flex-start;
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    left: 546px;
+    position: absolute;
+    top: 120px;
+    width: 420px;
+  }
+  
+  .dqmors .frame-4 {
+    align-items: flex-start;
+    display: flex;
+    height: 40px;
+    position: relative;
+    width: 419px;
+  }
+  
+  .dqmors .frame-5 {
+    background-color: #1eb041;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 10px 0px 0px 10px;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqmors .frame-6 {
+    background-color: #f5fcff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqmors .frame-7 {
+    background-color: #f5fcff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 0px 10px 10px 0px;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  

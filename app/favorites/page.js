@@ -1,7 +1,8 @@
 
+
 import React from "react";
 
-import ListProducts from "@/components/products/ListProducts";
+import ListFavorites from "@/components/products/ListFavorites";
 import { promises as fs } from 'fs';
 //import supportscolor from 'node_modules/supports-color'; 
 //import supportscolor1 from 'node_modules/supports-preserve-symlinks-flag'; 
@@ -27,15 +28,15 @@ const getProducts = async (searchParams) => {
   return data;
 }
 
-const ProductsView = async (searchParams) => {
-  const productsData = await getProducts(searchParams);
+const favorites = async (productId) => {
+  const productsData = await getProducts(productId);
   return (
     <LayoutSearch>
     <>
-  <ListProducts data={productsData} />
+  <List data={productsData} />
 </>
 </LayoutSearch>
   )
   };
 
-export default ProductsView;
+export default favorites;

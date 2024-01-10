@@ -1,0 +1,210 @@
+.dqmidentity {
+    background-color: #f5fcff;
+    height: 1000px;
+    position: relative;
+    width: 1410px;
+  }
+  
+  .dqmidentity .text-wrapper {
+    color: #000000;
+    font-family: "Arial-Bold", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    height: 74px;
+    left: 492px;
+    letter-spacing: 0;
+    line-height: 64px;
+    position: absolute;
+    text-align: center;
+    top: 158px;
+    white-space: nowrap;
+    width: 426px;
+  }
+  
+  .dqmidentity .div {
+    align-items: center;
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    gap: 24px;
+    height: 50px;
+    justify-content: center;
+    left: 78px;
+    padding: 16px 36px;
+    position: absolute;
+    top: 906px;
+    width: 180px;
+  }
+  
+  .dqmidentity .image {
+    height: 21px;
+    margin-bottom: -1.5px;
+    margin-top: -1.5px;
+    object-fit: cover;
+    position: relative;
+    width: 21px;
+  }
+  
+  .dqmidentity .text-wrapper-2 {
+    color: #f5fcff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -4.5px;
+    margin-top: -6.5px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dqmidentity .frame-378 {
+    left: 603px !important;
+    position: absolute !important;
+    top: 248px !important;
+  }
+  
+  .dqmidentity .frame-instance {
+    left: 603px !important;
+    position: absolute !important;
+    top: 348px !important;
+  }
+  
+  .dqmidentity .frame-378-instance {
+    left: 603px !important;
+    position: absolute !important;
+    top: 448px !important;
+  }
+  
+  .dqmidentity .design-component-instance-node {
+    left: 603px !important;
+    position: absolute !important;
+    top: 548px !important;
+  }
+  
+  .dqmidentity .frame-2 {
+    left: 603px !important;
+    position: absolute !important;
+    top: 648px !important;
+  }
+  
+  .dqmidentity .frame-3 {
+    left: 603px !important;
+    position: absolute !important;
+    top: 748px !important;
+  }
+  
+  .dqmidentity .frame-4 {
+    font-size: 28px !important;
+    line-height: 44.8px !important;
+  }
+  
+  .dqmidentity .frame-5 {
+    left: 603px !important;
+    position: absolute !important;
+    top: 848px !important;
+  }
+  
+  .dqmidentity .frame-6 {
+    align-items: center;
+    display: inline-flex;
+    gap: 30px;
+    left: 1000px;
+    position: absolute;
+    top: 30px;
+  }
+  
+  .dqmidentity .img {
+    height: 35px;
+    object-fit: cover;
+    position: relative;
+    width: 35px;
+  }
+  
+  .dqmidentity .frame-7 {
+    align-items: center;
+    background-color: #0d6efd;
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 8px 24px;
+    position: relative;
+  }
+  
+  .dqmidentity .text-wrapper-3 {
+    color: #f5fcff;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .dqmidentity .image-2 {
+    height: 21px;
+    object-fit: cover;
+    position: relative;
+    width: 21px;
+  }
+  
+  .dqmidentity .frame-8 {
+    align-items: flex-start;
+    display: flex;
+    height: 40px;
+    left: 496px;
+    position: absolute;
+    top: 92px;
+    width: 419px;
+  }
+  
+  .dqmidentity .frame-9 {
+    background-color: #1eb041;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 10px 0px 0px 10px;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqmidentity .frame-10 {
+    background-color: #1eb041;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqmidentity .frame-11 {
+    background-color: #f5fcff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
+  .dqmidentity .frame-12 {
+    background-color: #f5fcff;
+    border: 1px solid;
+    border-color: #d9d9d9;
+    border-radius: 0px 10px 10px 0px;
+    flex: 1;
+    flex-grow: 1;
+    height: 40px;
+    position: relative;
+  }
+  
