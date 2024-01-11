@@ -59,4 +59,4 @@ jobs:
           app-name: 'cleardashboard'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_53E133D18F23440FB26D91F4DE607708 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DC15E691323D4040B4435377D7AF74F1 }}
