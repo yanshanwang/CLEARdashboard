@@ -1,6 +1,6 @@
 import React from "react";
-import Searchkit from "searchkit";
-import { InstantSearch, SearchBox, Hits, RefinementList } from "react-instantsearch";
+//import Searchkit from "searchkit";
+//import { InstantSearch, SearchBox, Hits, RefinementList } from "react-instantsearch";
  
 const Search = () => {
   return (

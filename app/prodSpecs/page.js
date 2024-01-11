@@ -7,7 +7,7 @@ import axios from "axios";
 // import { promises as fs } from 'fs';
 //import supportscolor from 'node_modules/supports-color'; 
 //import supportscolor1 from 'node_modules/supports-preserve-symlinks-flag'; 
-import queryString from "query-string";
+//import queryString from "query-string";
 import LayoutSearch from '@/components/layouts/LayoutSearch';
 import { useSearchParams } from "next/navigation";
 
@@ -23,7 +23,7 @@ const getProducts = async (searchParams) => {
     "ratings[gte]": searchParams.ratings,
   };
 
-  const searchQuery = queryString.stringify(urlParams);
+  //const searchQuery = queryString.stringify(urlParams);
 
   const { data } = await axios.get(`/products.json`);
   // const { data } = await axios.get(`${process.env.API_URL}/api/products`);
