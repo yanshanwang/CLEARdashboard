@@ -33,7 +33,7 @@ const favorites = async (productId) => {
   return (
     <LayoutSearch>
     <>
-  <List data={productsData} />
+  <ListFavorites data={productsData} />
 </>
 </LayoutSearch>
   )
