@@ -2,7 +2,7 @@
 import React from "react";
 import ProductSpecs from './ProductSpecs';
 const ListProductsSpecs = ({ data }) => {
-    console.log(data);
+    // console.log(data);
 
     return (
     <section className="py-12">
